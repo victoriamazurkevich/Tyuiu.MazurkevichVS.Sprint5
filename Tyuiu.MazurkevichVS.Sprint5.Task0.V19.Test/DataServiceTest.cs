@@ -14,7 +14,7 @@ namespace Tyuiu.MazurkevichVS.Sprint5.Task0.V19.Test
             FileInfo fileInfo = new FileInfo(fullPath);
             bool fileExists = fileInfo.Exists;
             bool wait = true;
-            Assert.AreEqual(wait, fileExists);
+            Assert.AreEqual(wait, fileExists); 
 
         }
     }
