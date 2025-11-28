@@ -15,7 +15,7 @@ Console.WriteLine("*************************************************************
 Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
 Console.WriteLine("***************************************************************************");
 
-Console.WriteLine("Находятся в файле: ");
+Console.WriteLine("Находятся в файле: " + savepath);
 savepath = ds.LoadDataAndSave(path);
 Console.WriteLine(savepath);
 Console.ReadKey();
